@@ -1,0 +1,190 @@
+/* --------- This is CSS Reset Code --------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* --------- Begin your CSS Below here --------- */
+Header {
+	width: 100vw;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #FC7753;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	min-height: 100vh;
+	background-color: #CEDFD9;
+}
+
+span input {
+	background-color: transparent;
+	border: none;
+	width: 100%;
+}
+
+span input::placeholder {
+	color: black;
+	font-size: 16px;
+}
+
+span input:focus {
+	outline: none;
+}
+
+main {
+padding-bottom: 150px;
+}
+
+Footer {
+	background-color: #393E41;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	padding-left: 20px;
+	padding-right: 25px;
+	box-sizing: border-box;
+}
+
+.foot-text {
+	color: #25AAE1;
+	padding-left: 12px;
+}
+
+span{
+	display: flex;
+	justify-content: center;
+	background-color: #FC7753;
+	border: none;
+	border-radius: 50px;
+	width: 300px;
+	opacity: 75%;
+	margin: 15px;
+}
+
+button {
+	background-color: #FC7753;
+	border: none;
+}
+
+.Icon {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	padding-top: 10px;
+}
+
+.Socials-div {
+display: flex;
+}
+
+.recipe_card:hover {
+}
+
+.recipe_img_container {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.recipe_style {
+  width: 300px;
+  height: 450px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.6);
+  justify-content: space-between;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.detail_img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FC7753;
+}
+
+.recipe_img_name {
+	font-size: 50px;
+}
+
+.ingredients_container {
+	width: 250px;
+	height: fit-content;
+	box-shadow: 0px 3px 10px black;
+	text-align: left;
+	padding: 5px;
+}
+
+.inst_text {
+	margin-left: 8px;
+	padding: 5px;
+}
+
+.instructions_box {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	height: fit-content;
+	box-shadow: 0px 3px 10px black;
+}
+
+.ing_text {
+	text-align: left;
+	margin-left: 8px;
+}
+
+.overall_stuff {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 30px;
+}
+
+.inst_head {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.recipe_head {
+	text-align: center;
+	margin-top: 5px;
+}
